@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.slidebut{
+    background-color: #14213d;
+    margin-top: 0px;
+    padding: 10px 7px 10px 7px ;
+
+}
+div.slide{
+        height: 100%;
+        width:100px; 
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+        background-color: #fca311;
+        
+        transition:padding 0.7s;
+}
+div.slide:hover{
+    padding-right: 50px
+}
+.slide a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #14213d;
+    display: block;
+    
+    
+}
+.slide.slidebut {
+    background-color: #14213d;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+div.slide{
+    display: none;
+}
+p.a{
+    transition: padding 0.5s;
+}
+p.a:hover{
+    padding: 35px;
+}
+p.b{
+    transition:padding 0.5s ;
+}
+div.top1{
+    background-color: #14213d;
+}
+div.top{
+    font-size:x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#14213d;
+    background-color: #ffffff;
+}
+div.top_image{
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 200px;
+    background-image: url(images/wallpaperflare.com_wallpaper\ \(51\).jpg);
+
+}
+div.servicess_puttons{
+    background-color: #14213d;
+    background-position: center;
+    border-radius: 20px;
+    background-size: cover;
+    text-align: center;
+    padding-left:100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    color: #fca311;
+    font-size: larger;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px
+    
+    
+}
+div.sup_middle{
+    background-color: #e5e5e5;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.image1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    margin-right: 0px;
+    padding: 50px;
+}
+div.image2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    padding: 50px;
+}
+div.image3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    padding: 50px;
+}
+div.broke{
+    background-color:black ;
+    background-position: center;
+    background-size: contain;
+    box-sizing: unset;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    transition: padding 0.5s;
+}
+div.broke:hover{
+    padding: 30px;
+    background-color:#370617;
+}
+div.car{
+    background-color:black ;
+    background-position: center;
+    background-size: contain;
+    box-sizing: unset;
+    margin-top: 0px;
+    margin-left: px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    transition: padding 0.5s;
+}
+div.car:hover{
+    padding: 30px;
+    background-color:#370617;
+}
+div.gas{
+    background-color:black;
+    background-position: center;
+    background-size: contain;
+    box-sizing: unset;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    transition: padding 0.5s;
+}
+div.gas:hover{
+    padding: 30px;
+    background-color:#370617;
+}
+
+div.contact{
+    margin: 100px;
+}
+div.about{
+    margin: 30px;
+
+}
+div.customer{
+    margin: 30px;
+}
+div.down{
+    background-color: #fca311;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 200px ;
+    margin-top: 0px;
+}
+
+/*mobile */
+@media(min-width:640px) {
+    div.servicess_puttons{
+        margin-right: 70px;
+        margin-left: 70px;
+        
+    }
+    div.image1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        margin-right: 0px;
+        padding: 55px;
+    }
+    div.image2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left:0px;
+        margin-right: 0px;
+        padding: 55px;
+    }
+    div.image3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left:0px;
+        margin-right: 0px;
+        padding: 55px;
+    }
+    div.broke{
+        
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border-radius: 25px;
+        transition: padding 0.5s;
+    }
+    div.broke:hover{
+        padding: 35px;
+    }
+    div.car{
+        
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border-radius: 25px;
+        transition: padding 0.5s;
+    }
+    div.car:hover{
+        padding: 35px;
+    }
+    div.gas{
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border-radius: 25px;
+        transition: padding 0.5s;
+    }
+    div.gas:hover{
+        padding: 35px;
+    }
+}
+@media screen and (min-width:768px){
+    div.servicess_puttons{
+        margin-right: 130px;
+        margin-left: 130px;
+        
+    }
+    div.image1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+        margin-right: 0px;
+        padding: 55px;
+    }
+    div.image2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left:0px;
+        margin-right: 0px;
+        padding: 55px;
+    }
+    div.image3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left:0px;
+        margin-right: 0px;
+        padding: 55px;
+    }
+    div.broke{
+        
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border-radius: 25px;
+        transition: padding 0.5s;
+    }
+    div.broke:hover{
+        padding: 35px;
+    }
+    div.car{
+        
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border-radius: 25px;
+        transition: padding 0.5s;
+    }
+    div.car:hover{
+        padding: 35px;
+    }
+    div.gas{
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border-radius: 25px;
+        transition: padding 0.5s;
+    }
+    div.gas:hover{
+        padding: 35px;
+    }
+}
+@media screen and (min-width:1024px){
+    div.servicess_puttons{
+        margin-right: 200px;
+        margin-left: 200px;
+        
+    }
+}
+@media screen and (min-width:1280px){
+    div.servicess_puttons{
+        margin-right: 300px;
+        margin-left:300px;
+        
+    }
+}
+@media screen and (min-width: 1536px){
+    div.servicess_puttons{
+        margin-right: 350px;
+        margin-left:350px;
+        
+    }
+}
